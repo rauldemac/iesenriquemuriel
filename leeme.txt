@@ -1,0 +1,9 @@
+A la atención del profesor Antonio,
+Tenga en cuenta, que desde que tuve aquel accidente no acudí a clase, por lo que no ibamos demasiado avanzados en CSS cuando me fuí. Aún así me fuí poniendo al día y he ido solucionando yo solo los problemas que me
+han ido ocurriendo.
+Todas las imágenes provienen de bancos de imágenes gratuitas, en este caso el 100% de ellas provienen de Pixabay.com y son libres de copyright.
+Incluso los videos incluidos, uno de ellos es de elaboración propia y el otro está publicado con permiso del autor.
+Los archivos HTML y CSS han sido verificados y cumplen con todos los estándares. Además los HTML5 cumplen el estándar de accesibilidad WCAG 2.0 y los CSS, cumplen los estándares de CSS3.
+Se incluyen animaciones en la barra de redes sociales, en el menú para móviles y en la galería de imagenes.
+Además de en Github, la web está subida en makyla.synology.me y redireccionada al dominio myfavorites3dthings.es
+

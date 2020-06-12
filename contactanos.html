@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>I.E.S. Enrique Muriel</title>
+		<html lang="es">
+        <link rel="stylesheet" type="text/css" href="./css/style4.css" title="style"/>
+        <body background= "./img/background.png">
+        <link rel=”shortcut icon” type="image/png" href="./img/favicon.png"/>
+		<meta charset="UTF-8">
+		<meta name="description" content="instituto"/>
+        <meta name="keywords" content="school, instituto, educación"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="author" content="Raúl Avecilla"/>
+    </head>
+    <body>
+        <header>
+        <section class="banner" id="inicio">
+            <img class="banner__img" src="img/imagen1.jpg">
+            <div class="banner__info">
+                <h1 class="banner__title">I.E.S. Enrique Muriel</h1>
+                <p class="banner__p">Bienvenidos al I.E.S. Enrique Muriel, aquí encontrarás toda la información relativa al centro</p>
+            </div>
+        </section>
+        
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><img src="./img/menu.png"></label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html#inicio">Inicio</a></li>
+                    <li><a href="covid.html#inicio">▲ COVID-19</a></li>
+                    <li><a href="matriculas2020.html">Plazo de matrículas alumnos</a></li>
+                    <li><a href="contactanos.html#inicio">Contáctenos e infórmese</a></li>
+                    <li><a href="#galeria1">Galería de imágenes</a></li>
+                    <li><a href="#opiniones">Opinones ex-alumnos</a></li>
+                    <li><a href="#formulario">Solicitud de información</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="redessociales">
+                <a href="https://www.facebook.com/iesenriquemuriel" class="icono icono-facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/iesenriquemuriel" class="icono icono-twitter" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/c/iesenriquemuriel" class="icono icono-youtube" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/iesenriquemuriel/" class="icono icono-instagram" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+
+        </header>
+        <main>
+        <h2>
+        <fieldset>
+            <div><h3>
+            <p div id="galeria1" style="color:black";></p>
+            <div class="galeria">
+                <h1>Imágenes de nuestros alumnos</h1>
+                <div class="linea1"></div>
+                <div class="contenedor-imagenes">
+                    <div class="imagen">
+                        <img src="./img/1.jpg" alt="">
+                        <div class="overlay">
+                            <h2>Laura Colmena 2ºB</h2>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="./img/2.jpg" alt="">
+                        <div class="overlay">
+                            <h2>Pedro De Castro 1ºBACH</h2>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="./img/3.jpg" alt="">
+                        <div class="overlay">
+                            <h2>Luciana Rivera 4ºC</h2>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="./img/4.jpg" alt="">
+                        <div class="overlay">
+                            <h2>Javier Sweet 2ªBACH</h2>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="./img/5.jpg" alt="">
+                        <div class="overlay">
+                            <h2>Alejandra Barón F.P.I</h2>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="./img/6.jpg" alt="">
+                        <div class="overlay">
+                            <h2>Jesús López Pérez 2ªBACH</h2>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="./img/7.jpg" alt="">
+                        <div class="overlay">
+                            <h2>Elio Osborne García 3ªC</h2>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="./img/8.jpg" alt="">
+                        <div class="overlay">
+                            <h2>Lucía Galiana 2ªB</h2>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="./img/9.jpg" alt="">
+                        <div class="overlay">
+                            <h2>Álex Palacios 1ªBACH</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div align="left"><p style="color:black";><ul class="normal"><u>
+             </fieldset>
+             
+
+        <fieldset>
+            <p div align="center" id="formulario" style="color:black";><u>Nuevo proceso para la solicitud de información y alta en el sistema de ficheros del centro</u></p>
+            <form action="formulario.php" method="post"></p>
+                <p style="color:black">
+                Nombre:</p>
+                <input type="text" name="nombre" maxlength="30"/><br>
+                Apellidos:<br>
+                <input type="text" name="apellidos" maxlength="80" size="40" /><br>
+                Contraseña de acceso al área de estudiantes:<br>
+                <input type="password" name="password" maxlength="10" /><br>
+                Correo electónico:<br>
+                <input type="text" name="email" maxlength="30" size="20"/><br>
+                Sexo:<br>
+                <input type="radio" name="gender" value="Hombre" checked>Hombre<br>
+                <input type="radio" name="gender" value="Mujer">Mujer<br>
+                <br>
+                Añadir foto tipo carné
+                <input type="file" name="foto"/><br>
+              Provincia de residencia<br>
+                  <select name="residencia">
+                   <option value="Almería">Almería</option>
+                   <option value="Granada">Granada</option>
+                   <option value="Córdoba">Córdoba</option>
+                   <option value="Jaen">Jaen</option>
+                   <option value="Sevilla">Sevilla</option>
+                   <option value="Cádiz">Cádiz</option>
+                   <option value="Huelva">Huelva</option>
+                   <option value="Málaga">Málaga</option>
+                  </select>
+                  <br><br>
+                   Fecha de nacimiento
+                   <br>
+                  <input type="text" name="dia" maxlength="2" size="2" />de
+                  <select name="mes">
+                   <option value="Enero">Enero</option>
+                   <option value="Febrero">Febrero</option>
+                   <option value="Marzo">Marzo</option>
+                   <option value="Abril">Abril</option>
+                   <option value="Mayo">Mayo</option>
+                   <option value="Junio">Junio</option>
+                   <option value="Julio">Julio</option>
+                   <option value="Agosto">Agosto</option>
+                   <option value="Septiembre">Septiembre</option>
+                   <option value="Octubre">Octubre</option>
+                   <option value="Novienmbre">Noviembre</option>
+                   <option value="Diciembre">Diciembre</option>
+                  </select>de
+                  <input type="text" name="año" maxlength="4" size="2"/>
+                  <br><br>
+                  Solicita información de:<br>
+                  <label for="nivel">
+                      <select multiple="lista">
+                       <option value="eso">E.S.O.</option>
+                       <option value="bach">Bachillerato</option>
+                       <option value="fp">F.P.</option>
+                       <option value="oposiciones">Oposiciones</option>
+                       <option value="otros">Otros</option>
+                      </select>
+              
+          <p style="color:black";
+                <br>
+                <input type="checkbox" name="boletin1" value="Suscrito"checked/>Suscribirme al boletín de novedades<br>
+                <input type="checkbox" name="boletin2" value="Aceptado"checked/>Acepto el tratamiento de mis datos por parte del I.E.S. Enrique Muriel<br>
+                <br>
+                <input type="submit" name="enviar" value="Enviar solicitud"/>
+                <input type="reset" value="Borrar los datos introducidos"/>
+        </form>
+            </fieldset>
+
+        <fieldset>
+            <p div align="center" id="opiniones" style="color:black";><u>Opiniones de antiguos alumnos</u></p>
+            <p style="color:black";><table class="resp">
+                <p align="left">Laura Caballero de Tejada (Mayo 2019) --- Centro docente concertado muy bueno y con buenos profesionales. Sin duda repetiría la experiencia de cursar Bachillerato en el I.E.S. Enrique Muriel.</p>
+                <p align="right"> Jaime Caballero de Tejada (Mayo 2020) --- Hice la modalidad de Ciencias en Bachillerato, sin duda el mejor centro de Sevilla.</p>
+                <p align="left">Borja de Sanz López (Septiembre 2017) --- Una experiencia fanstástica llena de buen rollo y compañerismo.</p>
+                <p align="right">Lucía Pérez Guillén (Junio 2018) --- Centro docente concertado muy bueno y con buenos profesionales</p>
+               <p align="center"><img src="./img/imagen1.jpg" style="max-width: 30%;"></p>
+            </fieldset>
+
+        <fieldset>
+            <p div align="center" id="contacto" style="color:black";>Contáctenos en el: <a href="600600000" class="icono2 icono-llamada" target="_blank"></a><i class="fa fa-phone" aria-hidden="true"> 600600000</i></p>
+            <p align="center">Si lo desea, también puede escribirnos a secretaria@iesenriquemuriel.es</p>
+            <p align="center">Estamos en Av. Maestranza Aérea s/n Tablada-Sevilla 41011</p>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1585.4568504166775!2d-6.011036923873588!3d37.368218826624194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c4f4dcb9b6d%3A0xc03ae987086d10f!2sAv.%20Maestranza%20A%C3%A9rea%2C%2072%2C%2041011%20Sevilla!5e0!3m2!1ses!2ses!4v1591948094147!5m2!1ses!2ses"></iframe>
+             </div>             
+            </fieldset>
+             <p align="right">Página web desarrollada por José Raúl Avecilla Barrios</p>
+    </h2>
+    </main>
+
+    <footer>
+    <div style="text-align:center;padding:1em 0;"> <h4><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/city/2510911"><iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&size=small&timezone=Europe%2FMadrid" width="100%" height="90" frameborder="0" seamless></iframe> </div>
+    </footer>
+    </body>
+    </html>
